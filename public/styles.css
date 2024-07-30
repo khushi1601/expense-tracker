@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7ebe8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #5a3e36;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+label {
+    margin: 10px 0 5px 0;
+    font-size: 1em;
+}
+
+input, select, button {
+    margin: 5px 0 15px 0;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+/* Button Styles */
+button {
+    background-color: #7a5c52;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a3e36;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    color: #b85c38;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    color: #8b3c1f;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 0 auto 40px auto;
+    border-collapse: collapse;
+    font-size: 1em;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #5a3e36;
+}
+
+th {
+    background-color: #d9cab3;
+    color: #333;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2e8e4;
+}
+
+/* Chart Styles */
+#expenseChart {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #5a3e36;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Custom Styles for Aesthetic Similarity */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #e6d5cd;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+input[type="date"], input[type="number"], input[type="text"], select {
+    background-color: #f7ebe8;
+    border: 1px solid #d9cab3;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #b85c38;
+}
+
+button[type="submit"] {
+    background-color: #b85c38;
+    border: none;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #8b3c1f;
+}
